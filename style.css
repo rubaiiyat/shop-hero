@@ -1,0 +1,22 @@
+nav {
+  background-color: #1a187a;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbarLogo {
+  width: 239px;
+}
+.hamburger {
+  color: white;
+}
+
+.svg-container svg {
+  margin-right: 40px;
+}
+
+.navbar-nav a {
+  margin-right: 40px;
+}
