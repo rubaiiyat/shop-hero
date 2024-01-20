@@ -20,3 +20,71 @@ nav {
 .navbar-nav a {
   margin-right: 40px;
 }
+
+.carousel-inner {
+  background-image: linear-gradient(
+    to left top,
+    #6e86fc,
+    #a595fa,
+    #caa6f8,
+    #e6bbf7,
+    #fad2fa
+  );
+}
+
+.carousel-flex {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.phone-detail {
+  width: 30%;
+}
+
+.highlight-link {
+  color: blue;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.myButton {
+  background-color: #1a187a;
+  border-radius: 28px;
+  border: 1px solid #030155;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 16px 31px;
+  text-decoration: none;
+}
+.myButton:hover {
+  background-color: #0d09d8;
+}
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+.carousel-item img {
+  width: 20%;
+  float: right;
+}
+
+@media (max-width: 767px) {
+  .carousel-flex {
+    display: block;
+    text-align: center;
+  }
+  .phone-detail {
+    width: 100%;
+    margin-top: 20px;
+  }
+  .carousel-item img {
+    float: none;
+    width: 50%;
+    margin: auto;
+  }
+}
