@@ -73,6 +73,79 @@ nav {
   float: right;
 }
 
+.ipad-airpod {
+  display: flex;
+  margin-top: -5px;
+}
+
+.ipad {
+  background-image: linear-gradient(
+    to left top,
+    #7397e0,
+    #7da3df,
+    #8baedd,
+    #9bb8da,
+    #adc2d7
+  );
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  width: 50%;
+}
+
+.ipad img {
+  width: 50%;
+}
+
+.AirPods {
+  background-image: linear-gradient(
+    to left top,
+    #7397e0,
+    #7da3df,
+    #8baedd,
+    #9bb8da,
+    #adc2d7
+  );
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  width: 50%;
+}
+
+.AirPods img {
+  width: 50%;
+}
+
+.macbook-air {
+  background-image: linear-gradient(
+    to left top,
+    #2864dd,
+    #4c72b1,
+    #698ab4,
+    #9bb8da,
+    #286caf
+  );
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+}
+
+.macbook-air img {
+  width: 40%;
+}
+
+.macbook-air h1 {
+  font-weight: 200;
+  font-size: 50px;
+}
+.macbook-air h2 {
+  font-weight: 400;
+  font-size: 70px;
+}
+.mackbook-info {
+  width: 40%;
+}
 @media (max-width: 767px) {
   .carousel-flex {
     display: block;
@@ -86,5 +159,43 @@ nav {
     float: none;
     width: 50%;
     margin: auto;
+  }
+
+  .ipad-airpod {
+    display: block;
+  }
+  .ipad {
+    padding-bottom: 20px;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  .ipad img {
+    width: 100%;
+  }
+  .AirPods {
+    margin-top: -20px;
+    padding-bottom: 20px;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  .AirPods img {
+    width: 100%;
+  }
+
+  .macbook-air {
+    margin-top: -10px;
+    padding-bottom: 20px;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  .mackbook-info {
+    width: 100%;
+  }
+  .macbook-air img {
+    width: 100%;
+    padding-top: 10px;
   }
 }
