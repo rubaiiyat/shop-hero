@@ -165,7 +165,7 @@
 }
 
 .add-border {
-  background-color: rgb(143, 139, 139);
+  background-color: #ebe8e8;
   border-radius: 20px;
   margin: 20px;
 }
@@ -182,11 +182,29 @@
   margin-top: 20px;
   margin-bottom: 20px;
 }
+
 .Bestseller {
   margin-left: 30px;
   margin-right: 30px;
+  color: black;
 }
 
+.bi-heart {
+  font-size: 24px;
+  margin-left: 80%;
+  color: rgb(36, 35, 35);
+}
+.bi-heart-fill {
+  font-size: 24px;
+  margin-left: 80%;
+}
+
+.banner-part-2 {
+  background-color: #958ad4;
+}
+.sale-count {
+  color: #25177b;
+}
 @media (max-width: 767px) {
   .carousel-flex {
     display: block;
