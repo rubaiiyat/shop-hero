@@ -13,10 +13,6 @@
   color: white;
 }
 
-.svg-container {
-  letter-spacing: 20px;
-}
-
 .navbar-nav a {
   margin-right: 40px;
 }
@@ -204,6 +200,15 @@
 }
 .sale-count {
   color: #25177b;
+}
+.footer-bg {
+  background-color: #0e071b;
+}
+.footer-text {
+  color: #cfcfcf;
+}
+.footer-copyright {
+  background-color: #0e051f;
 }
 @media (max-width: 767px) {
   .carousel-flex {
